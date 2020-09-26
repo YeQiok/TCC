@@ -1,0 +1,15 @@
+"Antes do commit adicionar os arquivos"
+
+git add --all
+
+"Cada commit um comentario"
+
+git commit -m "Commit text"
+
+"Subir arquivo no git"
+
+git push
+
+"Pegar alteração no git"
+
+git pull
