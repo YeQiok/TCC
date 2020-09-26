@@ -17,3 +17,11 @@ git pull
 "Verificar pendencias para commit git"
 
 git status
+
+"Visualizar arvore"
+
+gitk
+
+"Mudar de commit Arvore"
+
+git checkout "Sha1"
