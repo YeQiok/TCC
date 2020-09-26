@@ -1,4 +1,4 @@
-"Antes do commit adicionar os arquivos"
+git"Antes do commit adicionar os arquivos"
 
 git add --all
 
