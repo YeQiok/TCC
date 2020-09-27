@@ -1,4 +1,5 @@
-git"Antes do commit adicionar os arquivos"
+git
+"Antes do commit adicionar os arquivos"
 
 git add --all
 
@@ -25,3 +26,8 @@ gitk
 "Mudar de commit Arvore"
 
 git checkout "Sha1"
+
+"Descartar alterações feitas"
+
+git checkout .
+
