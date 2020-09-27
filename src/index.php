@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="initial-scale=1, width=device-width">
-    <link media="all" type="text/css" rel="stylesheet" href="../main.css">
+    <link style="stylesheet" href="css/main.css">
 
           <title>Tortas Doces - Loja Virtual Dolce Gusto</title>
 
