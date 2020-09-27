@@ -7,7 +7,7 @@
     <meta name="viewport" content="initial-scale=1, width=device-width">
     <link style="stylesheet" href="css/main.css">
 
-          <title>Tortas Doces - Loja Virtual Dolce Gusto</title>
+          <title>Tortas</title>
 
   </head>
 
@@ -55,7 +55,7 @@
                     <ul class="dropdown-menu dropdown-cart carrinho-refresh" role="menu">
                       <li>
 	<span>Total: R$ 0,00</span>
-	<a class="pull-right btn-finalizar" href="/loja-virtual/meu-carrinho">Finalizar Compra</a>
+	<a class="pull-right btn-finalizar" href="#">Finalizar Compra</a>
 </li>
 <li class="divider"></li>
 
@@ -134,10 +134,10 @@ document.getElementById('cartQTD').innerHTML='0';
     <div class="banner-mobile">
         <ul>
             <li class="carousel-home-banner-1">
-                <a class="a-full" href="/loja-virtual/calculadora#ancora"></a>
+                <a class="a-full" href="#"></a>
             </li>
             <li class="carousel-home-banner-3">
-                <a class="a-full" href="/loja-virtual/produto/tortas-doces/torta-morango-chocolate"></a>
+                <a class="a-full" href="#"></a>
             </li>
             <li class="carousel-home-banner-4"></li>
         </ul>
@@ -150,10 +150,10 @@ document.getElementById('cartQTD').innerHTML='0';
     <div class="banner-mobile">
         <ul>
             <li class="carousel-home-banner-1">
-                <a class="a-full" href="/loja-virtual/calculadora#ancora"></a>
+                <a class="a-full" href="#"></a>
             </li>
             <li class="carousel-home-banner-3">
-                <a class="a-full" href="/loja-virtual/produto/tortas-doces/torta-morango-chocolate"></a>
+                <a class="a-full" href="#"></a>
             </li>
             <li class="carousel-home-banner-4"></li>
         </ul>
@@ -205,17 +205,17 @@ document.getElementById('cartQTD').innerHTML='0';
     <div class="col-md-9 produtos">
         <div class="row">
                                     <div class="col-sm-4 produto">
-                <a href="/loja-virtual/produto/tortas-doces/decoracao-01">
+                <a href="#">
                     <div class="thumbnail">
                         <div class="caption hidden-xs hidden-sm" style="display: none;">
                             <p>Comprar</p>
                         </div>
-                        <img src="//www.pidia.com.br/imgs/dolcegusto/produtos/377/tb_1jpg" alt="" class="img-responsive"/>
+                        <img src="#" alt="" class="img-responsive"/>
                     </div>
                 </a>
                 <h2>Decora&ccedil;&atilde;o 01</h2>
                                                 <h3>R$ 10,00</h3>
-                                                <a href="/loja-virtual/produto/tortas-doces/decoracao-01" class="btn btn-default btn-comprar">Comprar</a>
+                                                <a href="#" class="btn btn-default btn-comprar">Comprar</a>
             </div>
 </main>
 	    <div class="loja-rodape">
@@ -244,9 +244,9 @@ document.getElementById('cartQTD').innerHTML='0';
 	    			<div class="clearfix"></div>
 	    			<h2 class="mt-10">Atendimento</h2>
 	    			<div class="fone">
-	    				<a href="tel:+555430553366">54 3055-3366</a>
+	    				<a href="tel:"></a>
     				</div>
-	    			<a href="mailto:felipe.marins.batista2003@gmail.com">Email test</a>
+	    			<a href="mailto:">Email test</a>
 	    		</div>
 	    		<div class="clearfix"></div>
 	    		<div class="col-lg-12 text-center logo">
