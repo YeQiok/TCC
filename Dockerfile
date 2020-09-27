@@ -3,8 +3,6 @@ RUN docker-php-ext-install mysqli pdo_mysql
 
 COPY php/ /var/www/html/
 COPY src/ /var/www/html/
-COPY css/ /var/www/html/
-COPY js/ /var/www/html/
 
 #docker build -t tcc .
 #docker run -p 80:80 -d --name tcc-php tcc
