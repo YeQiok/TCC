@@ -804,10 +804,6 @@
       padding-top: 350px;
     }
   
-    ul.carousel_home_down {
-      /* CARROUSEL SLIDE DOWN */
-    }
-  
     ul.carousel_home_down li {
       display: -ms-flexbox;
       display: flex;
