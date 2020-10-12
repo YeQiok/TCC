@@ -14,8 +14,9 @@
           <title>Tortas</title>
   </head>
   <body class="topo">
-    <header>
-      
+    <header class="header">
+      <nav class="navbar navbar-default navbar-card navbar-static-top hidden-xs" rola="navigation">
+      </nav>
     </header>
 	</body>
 </html>

@@ -5,3 +5,10 @@ body{
     font-size: 14px;
     height: 100%;
 }
+.navbar-card{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 135px;
+}
