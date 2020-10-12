@@ -213,6 +213,8 @@ document.getElementById('cartQTD').innerHTML='0';
         <ul>
                         <li class=""><a href="#">Tortas Salgadas</a></li>
                         <li class="active"><a href="#">Tortas Doces</a></li>
+                        <li class="active"><a href="#">Refrigerante</a></li>
+                        <li class="active"><a href="#">Produto</a></li>
                     </ul>
     </div>
     <div class="col-md-9 produtos">
@@ -223,7 +225,7 @@ document.getElementById('cartQTD').innerHTML='0';
                         <div class="caption hidden-xs hidden-sm" style="display: none;">
                             <p>Comprar</p>
                         </div>
-                        <img src="#" alt="" class="img-responsive"/>
+                        <img src="img/torta.jpg" alt="" class="img-responsive"/>
                     </div>
                 </a>
                 <h2>Decora&ccedil;&atilde;o 01</h2>
