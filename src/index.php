@@ -38,7 +38,7 @@
               </div>
               <div class="col-sm-5 col-lg-6 links">
                                   <ul>
-                    <li><a href="#">Login</a></li>
+                    <li><a href="login.php">Login</a></li>
                     <li><a href="#">N&atilde;o sou cadastrado</a></li>
                   </ul>
                               </div>
