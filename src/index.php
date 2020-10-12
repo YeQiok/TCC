@@ -13,6 +13,15 @@
 
           <title>Tortas</title>
 
+    <style>
+      .radio label::before {
+        border-color: #191919 !important;
+      }
+      .radio label::after {
+          background-color: #191919 !important;
+      }
+    </style>
+
   </head>
 
   <body class="home">
