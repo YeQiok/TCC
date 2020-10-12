@@ -1,6 +1,19 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
+    <link media="all" type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans:400,700">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.dolcegusto.com.br/css/bootstrap.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.dolcegusto.com.br/css/bootstrap-select.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.dolcegusto.com.br/css/bootstrap-datetimepicker.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.dolcegusto.com.br/build/css/main-19f5978c25.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="https://www.dolcegusto.com.br/build/css/loja-virtual-4088763c98.css">
 
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
