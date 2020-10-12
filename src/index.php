@@ -9,6 +9,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="initial-scale=1, width=device-width">
     <link media="all" type="text/css" rel="stylesheet" href="css/main.css">
+    <link media="all" type="text/css" rel="stylesheet" href="css/interface.css">
 
           <title>Tortas</title>
 
