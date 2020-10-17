@@ -16,6 +16,37 @@
   <body class="topo">
     <header class="header">
       <nav class="navbar navbar-default navbar-card navbar-static-top hidden-xs" rola="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse">
+              <div class="col-sm-3 form">
+                <form method="POST" action="#" accept-charset="UFT-8">
+                  <div class="input-group">
+                    <input type="Text" class="form-control" name="location" placeholder="Busca">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="submite">
+                        <i class=" fa fa-search">
+                        </i>
+                      </button>
+                    </span>
+                  </div>
+                </form>
+              </div>
+              <div class="col-sm-5 col-lg-6 links">
+              </div>
+              <div class="col-md-3 col-sm-4 carrinho_compra">
+              </div>
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
 	</body>

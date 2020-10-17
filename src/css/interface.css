@@ -5,10 +5,89 @@ body{
     font-size: 14px;
     height: 100%;
 }
+@media (min-width: 768px)
+.header {
+    padding-top: 0;
+}
 .navbar-card{
-    background-color: black;
+    background-color: #e5d7cf;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 135px;
+    height: 100px;
+}
+.navbar-static-top{
+    z-index: 1;
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.navbar-header {
+    position: relative;
+    z-index: 2;
+}
+@media (min-width: 768px)
+.navbar-header {
+    float: left;
+}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    font-size: 20px;
+    color: #d6c1b4;
+    border: none;
+    background: none;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+.navbar-default .collapse {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-collapse:before{
+    display: table;
+    content: " ";
+}
+.navbar-card .form {
+    margin-top: 7px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    z-index: 2;
+    margin-left: -1px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
