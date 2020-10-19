@@ -65,6 +65,30 @@
                   <li><a href="/#produto">Produtos</a></li>
                   <li><a href="/">Site</a></li>
                   <li><a href="/#contato">Contato</a></li>
+                  <div class="col-md-3 col-sm-4 carrinho_superior">
+                <ul class="nav navbar-nav navbar-nav-cart">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle carrinho-btn" data-toggle="dropdown" role="button" aria-expanded="false">
+                      <div class="icon"><i class="fa fa-shopping-cart"></i><div class="cartQTD" id="cartQTD"></div></div>
+                      <div class="desc">
+                       <div class="carrinho">Carrinho</div>
+                       <div class="detalhes">Detalhes<span class="caret"></span></div>
+                      </div>
+                    </a>
+                    <ul class="dropdown-menu dropdown-cart carrinho-refresh" role="menu">
+                      <li>
+	<span>Total: R$ 0,00</span>
+	<a class="pull-right btn-finalizar" href="/loja-virtual/meu-carrinho">Finalizar Compra</a>
+</li>
+<li class="divider"></li>
+
+<script>
+document.getElementById('cartQTD').innerHTML='0';
+
+</script>                    </ul>
+                  </li>
+                </ul>
+              </div>
                 </ul>
               </div>
             </div>
@@ -260,7 +284,7 @@ document.getElementById('cartQTD').innerHTML='0';
 	    		</div>
 	    		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 	    			<h2>Formas de pagamento</h2>
-	    			<img src="/img/loja/cielo.png" class="img-responsive espaco-cielo" />
+	    			<img src="/img/cielo.png" class="img-responsive espaco-cielo" />
 	    		</div>
 	    		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 redes-sociais">
 	    			<h2>Redes Sociais</h2>
