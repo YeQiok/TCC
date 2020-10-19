@@ -69,7 +69,7 @@
                 <ul class="nav navbar-nav navbar-nav-cart">
                   <li class="dropdown">
                     <a href="#" class="dropdown-toggle carrinho-btn" data-toggle="dropdown" role="button" aria-expanded="false">
-                      <div class="icon"><i class="fa fa-shopping-cart"></i><div class="cartQTD" id="cartQTD"></div></div>
+                      <div class="icon"><i class="fa fa-shopping-cart" style="height: 100px;"></i><div class="cartQTD" id="cartQTD"></div></div>
                       <div class="desc">
                        <div class="carrinho">Carrinho</div>
                        <div class="detalhes">Detalhes<span class="caret"></span></div>
