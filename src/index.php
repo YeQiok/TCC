@@ -52,7 +52,7 @@
       <nav class="navbar navbar-default hidden-xs" role="navigation">
         <div class="container">
           <div class="row">
-            <div class="navbar-header" onclick="window.location='/loja-virtual';">
+            <div class="navbar-header" onclick="window.location='index.php';">
               <div class="navbar-brand navbar-brand-centered">
                 <a href="#">
                   <img class="img-responsive" src="#" width="166">
@@ -69,7 +69,7 @@
                 <ul class="nav navbar-nav navbar-nav-cart">
                   <li class="dropdown">
                     <a href="#" class="dropdown-toggle carrinho-btn" data-toggle="dropdown" role="button" aria-expanded="false">
-                      <div class="icon"><i class="fa fa-shopping-cart" style="height: 100px;"></i><div class="cartQTD" id="cartQTD"></div></div>
+                      <div class="icon"><i class="fa fa-shopping-cart" style="height: 30px;"></i><div class="cartQTD" id="cartQTD"></div></div>
                       <div class="desc">
                        <div class="carrinho">Carrinho</div>
                        <div class="detalhes">Detalhes<span class="caret"></span></div>
@@ -270,23 +270,18 @@ document.getElementById('cartQTD').innerHTML='0';
 </main>
 	    <div class="loja-rodape">
 	    	<div class="container">
-	    		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	    		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 	    			<h2>Minha Conta</h2>
 	    				    			<ul>
 	    				<li><a href="../../login.php">Login</a></li>
 	    				<li><a href="../../register.php">N&atilde;o sou cadastrado</a></li>
 	    			</ul>
 	    				    		</div>
-	    		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xs-12">
-	    			<ul>
-	    				<li><a href="/#contato">Contato</a></li>
-	    			</ul>
-	    		</div>
-	    		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	    		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 	    			<h2>Formas de pagamento</h2>
 	    			<img src="/img/cielo.png" class="img-responsive espaco-cielo" />
 	    		</div>
-	    		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 redes-sociais">
+	    		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 redes-sociais">
 	    			<h2>Redes Sociais</h2>
 	    			<ul>
 	    				<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
