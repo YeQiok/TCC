@@ -8,34 +8,11 @@
     <meta name="viewport" content="initial-scale=1, width=device-width">
 
           <title>Tortas Doces - Loja Virtual Dolce Gusto</title>
-    
-          <meta name="description" content="Compre agora Tortas Salgadas, Tortas Doces, Mini Doces, Mini Salgados, Bebidas, Complementos." />
-      <meta property="og:description" content="Compre agora Tortas Salgadas, Tortas Doces, Mini Doces, Mini Salgados, Bebidas, Complementos." />
-      <meta name="twitter:description" content="Compre agora Tortas Salgadas, Tortas Doces, Mini Doces, Mini Salgados, Bebidas, Complementos." />
-        
-        <link rel="apple-touch-icon" sizes="180x180" href="https://www.dolcegusto.com.br/apple-touch-icon.png?v=rM3kLnzbgX">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://www.dolcegusto.com.br/favicon-32x32.png?v=rM3kLnzbgX">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://www.dolcegusto.com.br/favicon-16x16.png?v=rM3kLnzbgX">
-    <link rel="manifest" href="https://www.dolcegusto.com.br/manifest.json?v=rM3kLnzbgX">
-    <link rel="mask-icon" href="https://www.dolcegusto.com.br/safari-pinned-tab.svg?v=rM3kLnzbgX" color="#333333">
-    <link rel="shortcut icon" href="https://www.dolcegusto.com.br/favicon.ico?v=rM3kLnzbgX">
-    <meta name="apple-mobile-web-app-title" content="Dolce Gusto">
-    <meta name="application-name" content="Dolce Gusto">
-    <meta name="theme-color" content="#000000">
 
-        <link media="all" type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans:400,700">
+        <link media="all" type="text/css" rel="stylesheet" href="css/interface.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
-    <link media="all" type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-    <link media="all" type="text/css" rel="stylesheet" href="https://www.dolcegusto.com.br/css/bootstrap.min.css">
-
-    <link media="all" type="text/css" rel="stylesheet" href="https://www.dolcegusto.com.br/css/bootstrap-select.min.css">
-
-    <link media="all" type="text/css" rel="stylesheet" href="https://www.dolcegusto.com.br/css/bootstrap-datetimepicker.min.css">
-
-    <link media="all" type="text/css" rel="stylesheet" href="https://www.dolcegusto.com.br/build/css/main-19f5978c25.css">
-
-    <link media="all" type="text/css" rel="stylesheet" href="https://www.dolcegusto.com.br/build/css/loja-virtual-4088763c98.css">
 
     <style>
       .radio label::before {
@@ -296,4 +273,6 @@ document.getElementById('cartQTD').innerHTML='0';
 	    	</div>
 	    </div>
 	</body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </html>

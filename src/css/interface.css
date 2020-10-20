@@ -77,8 +77,8 @@
   .bootstrap-select.btn-default:active,
   .bootstrap-select.open > .dropdown-toggle.btn-default {
     background-color: rgba(229, 215, 207, 0.2);
-    color: #000;
-    border: 1px solid #000;
+    color: white;
+    border: 1px solid white;
   }
   
   .bootstrap-select.btn-default.active.focus:hover,
@@ -346,7 +346,7 @@
   }
   
   ul.dropdown-cart {
-    background:white
+    background:white;
     min-width: 500px;
     padding: 10px;
   }
