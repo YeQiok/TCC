@@ -32,7 +32,7 @@
         </div>
         <div>
           <h3>Forma de pagamento</h3>
-          <img scr="img/cielo.png" class="img-cartao">
+          <img scr="../img/cielo.png" class="img-cartao">
         </div>
         <div class="redes-sociais">
           <h3>Redes Sociais</h3>
