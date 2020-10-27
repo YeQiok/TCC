@@ -31,3 +31,11 @@
 .rodape .redes-sociais li {
     float: left;
 }
+.rodape .fone {
+  color: #e5d7cf;
+}
+
+.rodape .img-cartao{
+  margin-left: 0;
+  padding-bottom: 30px;
+}

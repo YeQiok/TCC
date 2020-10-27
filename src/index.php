@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   </head>
   <body>
+    <header>
+    </header>
     <div class="rodape">
       <div class="container-fluid">
         <h3> Minha Conta </h3>
@@ -30,7 +32,7 @@
         </div>
         <div>
           <h3>Forma de pagamento</h3>
-          <img scr="#" class="img-cartao">
+          <img scr="img/cielo.png" class="img-cartao">
         </div>
         <div class="redes-sociais">
           <h3>Redes Sociais</h3>
