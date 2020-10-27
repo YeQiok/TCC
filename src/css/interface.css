@@ -14,3 +14,20 @@
     color: #e5d7cf;
     margin-bottom: 5px;
 }
+.rodape ul {
+    margin-bottom: 30px;
+}  
+.rodape a {
+    color: #e5d7cf;
+}  
+.rodape a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.rodape .redes-sociais li a {
+    font-size: 20px;
+    margin-right: 10px;
+}  
+.rodape .redes-sociais li {
+    float: left;
+}
