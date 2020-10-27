@@ -18,5 +18,28 @@
       <nav class="navbar navbar-default navbar-card navbar-static-top hidden-xs" rola="navigation">
       </nav>
     </header>
+    <div class="rodape">
+      <div class="container-fluid">
+        <h3> Minha Conta </h3>
+        <ul>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Sou cadastrado</a></li>
+        </ul>
+        <div class="temos">
+          <ul>
+            <li><a href="#">Formas de Pagamento</a></li>
+            <li><a href="#">Prazo de Entrega</a></li>
+            <li><a href="/#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Forma de pagamento</h3>
+          <img scr="#" class="img-cartao">
+        </div>
+        <div class="redes-sociais">
+          <h3>Redes Sociais</h3>
+        </div>
+      </div>
+    </div>
 	</body>
 </html>
