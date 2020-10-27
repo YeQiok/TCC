@@ -33,6 +33,13 @@
         </div>
         <div class="redes-sociais">
           <h3>Redes Sociais</h3>
+          <ul>
+            <li><a href="https://www.facebook.com/Delicias-Dona-Flor-2043568992395960" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          </ul>
+          <div class="fone">
+            <a href="tel:+5515997058624">+55 (015) 997058624</a>
+          </div>
+            <a href="mailto:#">email</a>
         </div>
       </div>
     </div>
