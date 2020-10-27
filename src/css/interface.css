@@ -1,0 +1,16 @@
+.rodape{
+    background-color: #000;
+    border-bottom: 2px solid white;
+    font-family: "source_Serif_prolight", serif;
+    font-size: 15px;
+    line-height: 1.4;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+.rodape h3{
+    font-family: "source_Serif_prolight", serif;
+    text-transform: uppercase;
+    font-size: 1.13em;
+    color: #e5d7cf;
+    margin-bottom: 5px;
+}
