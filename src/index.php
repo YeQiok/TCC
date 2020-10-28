@@ -14,7 +14,84 @@
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   </head>
   <body class="home">
-    <header>
+    <header class="header">
+      <nav class="navbar navbar-default navbar-loja navbar-static-top hidden-xs" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse">
+              <div class="col-sm-3 form">
+                <form method="POST" action="#" accept-charset="UTF-8"><input name="_token" type="hidden" value="r92UGcU5voXqwdcoTy1kszL8B6u9V4k6ixdX0DFD">
+                  <input type="hidden" name="_token" value="r92UGcU5voXqwdcoTy1kszL8B6u9V4k6ixdX0DFD">
+                    <div class="input-group">
+                      <input type="text" class="form-control" name="localizar" placeholder="Buscar">
+                      <span class="input-group-btn">
+                      <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                      </span>
+                    </div>
+                  </form>
+              </div>
+              <div class="col-sm-5 col-lg-6 links">
+                                  <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">N&atilde;o sou cadastrado</a></li>
+                  </ul>
+                              </div>
+              <div class="col-md-3 col-sm-4 carrinho_superior">
+                <ul class="nav navbar-nav navbar-nav-cart">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle carrinho-btn" data-toggle="dropdown" role="button" aria-expanded="false">
+                      <div class="icon"><i class="fa fa-shopping-cart"></i><div class="cartQTD" id="cartQTD"></div></div>
+                      <div class="desc">
+                       <div class="carrinho">Carrinho</div>
+                       <div class="detalhes">Detalhes<span class="caret"></span></div>
+                      </div>
+                    </a>
+                    <ul class="dropdown-menu dropdown-cart carrinho-refresh" role="menu">
+                      <li>
+	                      <span>Total: R$ 0,00</span>
+	                      <a class="pull-right btn-finalizar" href="#">Finalizar Compra</a>
+                      </li>
+                      <li class="divider"></li>
+                      <script>
+                        document.getElementById('cartQTD').innerHTML='0';
+                      </script>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </header>
     <div class="rodape">
       <div class="container-fluid">
