@@ -104,7 +104,6 @@
         </div>
       </div>
     </nav>
-
     <!--
       MOBILE
       -->
@@ -140,12 +139,8 @@
         </div>
       </div>
     </nav>
-
   </header>
-
   <main class="content">
-
-
     <div class="visible-xs" id="home-mobile">
       <div class="banner-mobile">
         <ul>
@@ -161,7 +156,6 @@
         <a href="#" class="unslider-arrow next"><i class="fa fa-chevron-right"></i></a>
       </div>
     </div>
-
     <div class="visible-sm" id="home-mobile">
       <div class="banner-mobile">
         <ul>
@@ -177,7 +171,6 @@
         <a href="#" class="unslider-arrow next"><i class="fa fa-chevron-right"></i></a>
       </div>
     </div>
-
     <!-- banners desktop -->
     <div class="hidden-xs hidden-sm">
       <div class="carousel slide carousel_loja" data-ride="carousel" id="myCarousel">
@@ -220,11 +213,6 @@
         </div>
       </div>
     </div>
-
-
-
-
-
     <div class="listrado" id="ancora" rel="0">
       <h1>
         <div class="t2">Monte sua festa</div>
@@ -232,7 +220,6 @@
         <div class="t3">Pague em até 3 vezes s/ juros no cartão</div>
       </h1>
     </div>
-
     <div class="container">
       <div class="col-md-3 menu">
         <h1>Produtos</h1>
@@ -380,9 +367,6 @@
                   <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
                   <li><a href="#" data-toggle="modal" data-target="#tripadvisor"><i class="fa fa-tripadvisor"></i></a></li>
                   <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
-
-
-
                 </ul>
                 <div class="clearfix"></div>
                 <h2 class="mt-10">CNPJ</h2>
@@ -400,7 +384,6 @@
               </div>
             </div>
           </div>
-
           <style type="text/css" media="screen">
             .atria {
               text-align: center;
@@ -447,12 +430,7 @@
               padding-top: 10px;
             }
           </style>
-
-          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-
-          <!-- Facebook Pixel Code -->
+         <!-- Facebook Pixel Code -->
           <script>
             ! function(f, b, e, v, n, t, s) {
               if (f.fbq) return;
@@ -477,8 +455,5 @@
           </script>
           <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1626959264262794&ev=PageView&noscript=1" /></noscript>
           <!-- End Facebook Pixel Code -->
-
-
 </body>
-
 </html>
