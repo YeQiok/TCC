@@ -1,8 +1,98 @@
+drop database db_donaflor;
 
-create database db_donaflor;
-use db_donaflor;
-CREATE TABLE users(
-    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    usuario varchar(50) NOT NULL UNIQUE,
-    senha varchar(255) NOT NULL
+CREATE TABLE Funcionario (
+    IdFuncionario INTEGER PRIMARY KEY,
+    Nome NCHAR (50),
+    Senha NCHAR (50),
+    Email VARCHAR (200),
+    Administrador BIT,
+    DataCriacao DATE,
+    DataAlteracao DATE,
+    Ativo BIT
 );
+
+CREATE TABLE Cliente (
+    IdCliente INTEGER PRIMARY KEY,
+    IdPedido INTEGER,
+    Nome NCHAR (50),
+    Senha NCHAR (50),
+    Email VARCHAR (200),
+    IdEndereco INTEGER,
+    DataCriacao DATE,
+    DataAlteracao DATE,
+    Ativo BIT
+);
+
+CREATE TABLE Pedido (
+    IdPedido INTEGER PRIMARY KEY,
+    IdProduto INTEGER,
+    IdCliente INTEGER,
+    IdStatus INTEGER,
+    DataCriacao DATE,
+    DataAlteracao DATE,
+    Ativo BIT,
+    Valor DECIMAL (19,4)
+);
+
+CREATE TABLE Produto (
+    IdProduto INTEGER PRIMARY KEY,
+    CodigoProd NCHAR (10),
+    Nome NCHAR (50),
+    Descricao VARCHAR (200),
+    Valor DECIMAL (19,4),
+    Imagem BLOB,
+    DataCriacao DATE,
+    DataAlteracao DATE,
+    Ativo BIT
+);
+
+CREATE TABLE Endereco (
+    IdEndereco INTEGER PRIMARY KEY,
+    CEP NCHAR (8),
+    Complemento VARCHAR (150),
+    Numero NCHAR (10),
+    Cidade NCHAR (20),
+    Estado NCHAR (20),
+    DataCriacao DATE,
+    DataAlteracao DATE,
+    Ativo BIT
+);
+
+CREATE TABLE Estoque (
+    IdEstoque INTEGER PRIMARY KEY,
+    IdProduto INTEGER,
+    Quantidade INTEGER,
+    Ativo BIT,
+    DataAlteracao DATE,
+    DataCriacao DATE
+);
+
+CREATE TABLE Status (
+    IdStatus INTEGER PRIMARY KEY,
+    Descricao VARCHAR (255),
+    Ativo BIT
+);
+ 
+ALTER TABLE Cliente ADD CONSTRAINT FK_Cliente_Pedido
+    FOREIGN KEY (IdPedido)
+    REFERENCES Pedido (IdPedido);
+	
+ALTER TABLE Cliente ADD CONSTRAINT FK_Cliente_Endereco
+    FOREIGN KEY (IdEndereco)
+    REFERENCES Endereco (IdEndereco);
+ 
+ALTER TABLE Pedido ADD CONSTRAINT FK_Pedido_Status
+    FOREIGN KEY (IdStatus)
+    REFERENCES Status (IdStatus);
+
+ALTER TABLE Pedido ADD CONSTRAINT FK_Pedido_Cliente
+    FOREIGN KEY (IdCliente)
+    REFERENCES Cliente (IdCliente);
+	
+ALTER TABLE Pedido ADD CONSTRAINT FK_Pedido_Produto
+    FOREIGN KEY (IdProduto)
+    REFERENCES Produto (IdProduto);
+
+ALTER TABLE Estoque ADD CONSTRAINT FK_Estoque_Produto
+    FOREIGN KEY (IdProduto)
+    REFERENCES Produto (IdProduto);
