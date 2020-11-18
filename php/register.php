@@ -8,7 +8,7 @@ if($_SERVER["Metodo_Solucao"] == "POST"){
     if(empty(trim($_POST["usuario"]))){
         $usuarioerro = "Por favor coloque um nome de usuário"
     }else{
-        $sql = "SELECT id FROM Users WHERE usuario = ?";
+        $sql = "SELECT id FROM Cliente WHERE usuario = ?";
 
         if($stmt = mysqli_prepare($connect, $sql)){
             mysqli_stmt_bind_param($stmt, "s", $param_usuario);
@@ -51,7 +51,7 @@ if($_SERVER["Metodo_Solucao"] == "POST"){
     //checkar se tem erro
     if(empty($usuarioerro) && empty($senhaerro) && empty($confirmar_senhaerro)){
 
-        $sql = "INSERT INTO users (usuario, senha) VALUES (?,?)";
+        $sql = "INSERT INTO Cliente (usuario, senha) VALUES (?,?)";
 
         if($stmt = mysqli_prepare($connect, $sql)){
             //Vincular as variáveis à instrução preparada como parâmetros

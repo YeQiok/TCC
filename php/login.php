@@ -26,7 +26,7 @@ if(empty(trim($_POST["senha"]))){
 }
 
 if(empty($usuarioerro) && empty($senhaerro)){
-    $sql = "SELECT id, username, password FROM users WHERE username = ?";
+    $sql = "SELECT id, username, password FROM Cliente WHERE username = ?";
     
     if($stmt = mysqli_prepare($connect, $sql)){
         mysqli_stmt_bind_param($stmt, "s", $param_usuario);
