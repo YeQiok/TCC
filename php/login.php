@@ -39,7 +39,7 @@ if(empty($usuarioerro) && empty($senhaerro)){
                 mysqli_stmt_bind_result($stmt, $id, $username, $hashed_password);
                 if(mysqli_stmt_fetch($stmt)){
                     if(password_verify($senha, $hashed_password)){
-                        session_start;
+                        session_start();
 
                         $_SESSION["login"] = true;
                         $_SESSION["id"] = $id;

@@ -6,7 +6,7 @@ $usuarioerro = $senhaerro = $confirmar_senhaerro = "";
 
 if($_SERVER["Metodo_Solucao"] == "POST"){
     if(empty(trim($_POST["usuario"]))){
-        $usuarioerro = "Por favor coloque um nome de usuário"
+        $usuarioerro = "Por favor coloque um nome de usuário";
     }else{
         $sql = "SELECT id FROM Cliente WHERE usuario = ?";
 
@@ -19,7 +19,7 @@ if($_SERVER["Metodo_Solucao"] == "POST"){
                 mysqli_stmt_store_result($stmt);
 
                 if(mysqli_stmt_num_rows($stmt) == 1){
-                    $usuarioerro = "Este nome de usuário já está em uso."
+                    $usuarioerro = "Este nome de usuário já está em uso.";
                 }else{
                     $usuario = trim($_POST["usuario"]);
                 }

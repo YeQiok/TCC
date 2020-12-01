@@ -150,10 +150,10 @@
 
     <ul class="list-unstyled">
         <li>
-          <a id="footer-text" href="#!">login</a>
+          <a id="footer-text" href="login.php">login</a>
         </li>
         <li>
-          <a id="footer-text" href="#!">Registre-se</a>
+          <a id="footer-text" href="register.php">Registre-se</a>
         </li>
     </ul>
     </div>
