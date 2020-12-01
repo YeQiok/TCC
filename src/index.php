@@ -235,12 +235,6 @@
   </ul>
 <!-- Social buttons -->
 
-<!-- Copyright -->
-<div id="footer-text" class="footer-copyright text-center py-3">© 2020 Copyright:
-  <a id="footer-text" href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-</div>
-<!-- Copyright -->
-
 </footer>
 </div>
 <!-- Footer -->
