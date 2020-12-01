@@ -1,3 +1,81 @@
+#tudo {
+  background-color: #dbccc5 ;
+}
+.listrado {
+  background-color: #dbccc5;
+  margin-bottom: 20px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+#menu-inicial{
+  background-color: black;
+}
+
+#menu-inicial ul li a{
+  color: white;
+}
+
+.thumbnail{
+  height: 200px;
+  width: 200px;
+  
+} 
+
+#header{
+  margin-left: 500px;
+}
+
+.row{
+  margin-right: -15px;
+  margin-left: -147px;
+  margin-top: 6px;
+}
+.btn-comprar{
+  margin-top:40px;
+}
+
+#item-1{
+  margin-top:56px;
+}
+
+#borda{
+  border-radius: 2px solid;
+}
+
+#footer{
+  background-color: #262626;
+}
+
+#footer-2{
+  background-color:black;
+}
+
+#footer-text{
+  color: #FFB6C1;
+}
+
+#card{
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.card p{
+  color: #04BF68;
+}
+.card a{
+  color:black;
+}
+
+#negrito{
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+#posicao{
+  text-align: left;
+}
 .listrado {
   background-color: #dbccc5;
   margin-bottom: 20px;
