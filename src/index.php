@@ -29,9 +29,6 @@
 
     <link rel="shortcut icon" href="img/favicon.ico">
 </head>
-<script style="text/css">
-    alert("LUI É VIADO CLIQUE OK PARA PROSSEGUIR");
-</script>
 <header id="tudo">
     <main class="content">
     <nav id="menu-inicial" class="navbar navbar-expand-lg">
@@ -77,6 +74,14 @@
       </a>
     </div>
     </div>
+</div>
+<!-- Mensagem no meio da tela -->
+<div class="listrado" id="ancora" rel="0">
+    <h1>
+        <div class="t2">Compre Sua torta</div>
+        <div class="t1">Frete grátis nas compras</div>
+        <div class="t3">Pague em até 3 vezes s/ juros no cartão</div>
+    </h1>
 </div>
         <div class="container">
             <div id="produtos" class="col-md-12 produtos">
